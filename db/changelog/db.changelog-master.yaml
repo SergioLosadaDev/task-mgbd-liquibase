@@ -1,0 +1,35 @@
+databaseChangeLog:
+  # =========================================
+  # DDL
+  # =========================================
+
+  - include:
+      file: db/changelog/ddl/001-create-persona.sql
+
+  - include:
+      file: db/changelog/ddl/002-create-rol.sql
+
+  - include:
+      file: db/changelog/ddl/003-create-usuario.sql
+
+  - include:
+      file: db/changelog/ddl/004-create-producto.sql
+
+  - include:
+      file: db/changelog/ddl/005-create-factura.sql
+
+  - include:
+      file: db/changelog/ddl/006-create-detalle-factura.sql
+
+  # =========================================
+  # DML
+  # =========================================
+
+  - include:
+      file: db/changelog/dml/001-insert-data.sql
+
+  - include:
+      file: db/changelog/dml/002-update-data.sql
+
+  - include:
+      file: db/changelog/dml/003-delete-data.sql
